@@ -1,4 +1,4 @@
-;;; package --- A beautiful theme
+;;; package --- A beautiful theme  -*- lexical-binding: t; -*-
 ;;; Commentary:
 ;;; rose-pine based theme
 
@@ -214,14 +214,14 @@
 
   ;; swiper
   (swiper-line-face                     (:foreground gold))
-  (swiper-background-match-face-1       (:background gold :foreground base))
-  (swiper-background-match-face-2       (:background foam :foreground base))
-  (swiper-background-match-face-3       (:background rose :foreground base))
-  (swiper-background-match-face-4       (:background love :foreground base))
-  (swiper-match-face-1					(:inherit 'swiper-background-match-face-1))
-  (swiper-match-face-2					(:inherit 'swiper-background-match-face-2))
-  (swiper-match-face-3					(:inherit 'swiper-background-match-face-3))
-  (swiper-match-face-4					(:inherit 'swiper-background-match-face-4))
+  (swiper-match-face-1       (:background gold :foreground base))
+  (swiper-match-face-2       (:background foam :foreground base))
+  (swiper-match-face-3       (:background rose :foreground base))
+  (swiper-match-face-4       (:background love :foreground base))
+  (swiper-background-match-face-1					(:inherit 'swiper-match-face-1))
+  (swiper-background-match-face-2					(:inherit 'swiper-match-face-2))
+  (swiper-background-match-face-3					(:inherit 'swiper-match-face-3))
+  (swiper-background-match-face-4					(:inherit 'swiper-match-face-4))
 
   (counsel-outline-default              (:foreground gold))
   (info-header-xref                     (:foreground gold))
